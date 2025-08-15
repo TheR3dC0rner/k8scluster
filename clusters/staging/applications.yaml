@@ -16,4 +16,4 @@ spec:
     provider: sops
     secretRef:
       # Reference the new 'sops-gpg' secret
-      name: sops.age
+      name: sops-age
