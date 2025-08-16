@@ -1,0 +1,11 @@
+kubeProxyReplacement: "true"
+nodeIPAM:
+  # -- Configure Node IPAM
+  # ref: https://docs.cilium.io/en/stable/network/node-ipam/
+  enabled: true
+
+encryption:
+  # -- Enable transparent network encryption.
+  enabled: true
+  # -- Encryption method. Can be either ipsec or wireguard.
+  type: wireguard
