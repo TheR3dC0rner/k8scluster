@@ -9,7 +9,3 @@ patches:
       kind: HelmRelease
       name: cilium
 
-  - path: longhorn/longhorn-patches.yaml
-    target:
-      kind: HelmRelease
-      name: longhorn
