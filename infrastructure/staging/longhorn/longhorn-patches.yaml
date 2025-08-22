@@ -1,10 +1,12 @@
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: cilium
+  name: longhorn
   namespace: flux-system
 spec:
   chart:
     spec:
-      chart: cilium
-      version: "1.18.1"
+      chart: longhorn
+      version: "1.9.1"
+
+
