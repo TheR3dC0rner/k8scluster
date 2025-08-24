@@ -4,3 +4,4 @@ namespace: flux-system
 resources:
   - cilium-chart.yaml
   - longhorn-chart.yaml
+  - ingress-nginx-chart.yaml

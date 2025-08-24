@@ -1,0 +1,20 @@
+apiVersion: helm.toolkit.fluxcd.io/v2beta1
+kind: HelmRelease
+metadata:
+  name: ingress-nginx
+  namespace: flux-system
+spec:
+  chart:
+    spec:
+      chart: ingress-nginx
+      reconcileStrategy: ChartVersion
+      sourceRef:
+        kind: HelmRepository
+        name: ingress-nginx-chart
+  interval: 5m50s
+  releaseName: ingress-nginx
+  targetNamespace: ingress-nginx
+  values:
+    controller:
+      config:
+        use-forwarded-headers: "true"

@@ -12,3 +12,8 @@ patches:
     target:
       kind: HelmRelease
       name: longhorn
+
+  - path: ingress-nginx/ingress-nginx-patches.yaml
+    target:
+      kind: HelmRelease
+      name: ingress-nginx
