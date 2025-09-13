@@ -13,6 +13,8 @@ The core infrastructure is based on k0 with Cillium as the CNI.  All storage is 
 - Longhorn: Longhorn for storing our perstent volumes and creating HA for pods.
 - Automation CI/CD:  Uses Fluxcd to maintain the infrastructure.  Custom images being deployed are built with Gitea actions
 
+This repositoray is related to my blog series published here:
 
+https://www.th3redc0rner.com/infrastructure/
 
 
