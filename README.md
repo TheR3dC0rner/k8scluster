@@ -1,4 +1,4 @@
-This my for testing and building out automated command and control deployments. Kubernetes cluster. I try to adhere to Infrastructure as Code (IaC) and GitOps practices using tools like Ansible, Terraform, Kubernetes, Flux, and GitHub Actions.
+This is for testing and building out automated command and control deployments Kubernetes cluster. I try to adhere to Infrastructure as Code (IaC) and GitOps practices using tools like Ansible, Terraform, Kubernetes, Flux, and GitHub Actions.
 
 
 ## Kubernetes
