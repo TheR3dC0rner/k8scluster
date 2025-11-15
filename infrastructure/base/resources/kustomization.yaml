@@ -5,3 +5,4 @@ resources:
   - cilium-chart.yaml
   - longhorn-chart.yaml
   - ingress-nginx-chart.yaml
+  - traefik-chart.yaml 
