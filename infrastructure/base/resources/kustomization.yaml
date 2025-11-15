@@ -5,4 +5,4 @@ resources:
   - cilium-chart.yaml
   - longhorn-chart.yaml
   - ingress-nginx-chart.yaml
-  - kgatewawy-crd-oci.yaml
+  - kgateway-crd-oci.yaml
