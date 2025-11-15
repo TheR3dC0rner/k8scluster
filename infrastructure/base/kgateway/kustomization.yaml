@@ -3,4 +3,5 @@ kind: Kustomization
 resources:
   - crd-standard-install.yaml
   - namespace.yaml
-  - kgateway-crd-hr.yaml 
+  - kgateway-crd-hr.yaml
+  - kgateway-controller-hr.yaml 
