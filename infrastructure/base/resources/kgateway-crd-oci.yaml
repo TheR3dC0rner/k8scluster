@@ -1,11 +1,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: OCIRepository
 metadata:
-  name: kgateway
+  name: kgateway-crd-oci
   namespace: flux-system
 spec:
   interval: 10m
-  url: oci://cr.kgateway.dev/kgateway-dev/charts/kgateway-crd
+  url: oci://cr.kgateway.dev/kgateway-dev/charts/kgateway-crds
   ref:
     tag: "v2.1.1"
 
