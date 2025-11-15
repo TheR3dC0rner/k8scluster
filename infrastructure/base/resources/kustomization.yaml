@@ -6,3 +6,4 @@ resources:
   - longhorn-chart.yaml
   - ingress-nginx-chart.yaml
   - kgateway-crd-oci.yaml
+  - kgatewawy-controller-oci.yaml
