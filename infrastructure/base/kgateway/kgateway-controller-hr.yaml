@@ -13,6 +13,8 @@ spec:
   targetNamespace: kgateway-system
   values:
     controller.image.pullPolicy: Always
+    image:
+      tag: v2.1.1
 
 
 
