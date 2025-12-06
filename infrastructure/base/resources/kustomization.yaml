@@ -5,4 +5,6 @@ resources:
   - cilium-chart.yaml
   - longhorn-chart.yaml
   - ingress-nginx-chart.yaml
-  - traefik-chart.yaml 
+  - traefik-chart.yaml
+  - kgateway-crd-oci.yaml
+  - kgateway-controller-oci.yaml 
